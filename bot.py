@@ -4,7 +4,6 @@ import random
 import asyncio
 
 client = commands.Bot(command_prefix="-")
-TOKEN = "NTM4NzYwMDE2MDczNTg4NzY2.Dy8rXA.h41dqiGijPJ_4ZgXfPc3GOgdNHU"
 client.remove_command('help')
 
 @client.command()
@@ -20,4 +19,4 @@ async def stratos(ctx):
 async def on_ready():
     print("The bot is ready!")
 
-client.run(TOKEN)
+client.run(str(os.environ('NTM4NzYwMDE2MDczNTg4NzY2.Dy8rXA.h41dqiGijPJ_4ZgXfPc3GOgdNHU')))
