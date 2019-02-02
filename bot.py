@@ -22,4 +22,4 @@ async def stratos(ctx):
 async def on_ready():
     print("The bot is ready!")
 
-client.run(str(os.environ('NTM4NzYwMDE2MDczNTg4NzY2.Dy8rXA.h41dqiGijPJ_4ZgXfPc3GOgdNHU')))
+bot_token:client.run(str(os.environ.get('BOT_TOKEN')))
